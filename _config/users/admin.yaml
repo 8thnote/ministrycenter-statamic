@@ -1,0 +1,13 @@
+---
+first_name: Don
+last_name: Helm
+roles:
+  - admin
+email: don.helm@eighthnotemedia.com
+password: ""
+_uid: xFCkBC5536bd8f23954cV5q5RwV
+password_hash: $2a$08$/5z7w4UMUKp1F5g5xmbDHeUmMhtg0JpOBpowRr6n13mTJjSjRHNEO
+---
+Have no fears, your password, while plain text to start, will be encrypted upon first login. If ever you need to manually reset a password you can wipe out the password fields and start anew.
+
+Your username is the name of the YAML file. That would make this user "admin".
