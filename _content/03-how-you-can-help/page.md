@@ -1,10 +1,10 @@
 ---
 _fieldset: page
-title: Questions and Answers
+title: How You Can Help
 upload: ""
+_template: inner
+header_image: ""
 ---
-# Questions and Answers
-
 Some intro text goes here...
 
 **Question 1 Goes Here?**  

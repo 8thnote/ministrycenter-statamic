@@ -1,14 +1,21 @@
 title: Standard Page
 
 fields:
+  slug:
+    hide: true
+    
   _template:
     display: Template
     type: templates
 
-  upload:
+  header_image:
+    display: Header Image
     type: file
     destination: assets/img/
-    allowed: ['jpg', 'png']
+    allowed: ['jpg', 'jpeg', 'png']
+    resize: 
+      width: 863
+      height: 231
 
   content:
     display: Page Content

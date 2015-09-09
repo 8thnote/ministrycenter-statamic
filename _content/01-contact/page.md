@@ -1,9 +1,10 @@
 ---
 _fieldset: page
-title: Hours and Clinic Info
+title: Hours, Contact & Directions
 upload: ""
+header_image: /assets/img/resized/hours.jpg
+_template: inner
 ---
-# Hours and Clinic Info
 The Ministry Center is open for operation the following hours:  
 9:00 AM to 2:00 PM  
 Monday through Thursday

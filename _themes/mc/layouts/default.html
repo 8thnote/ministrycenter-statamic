@@ -13,6 +13,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     {{ theme:css tag="true" }}
+    {{ theme:css src="new4cms" tag="true" }}
     
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -38,10 +39,10 @@
           </header>
           <nav id="mainNav" class="imgNav stacked">
             <ul>
-              <li class="hours"><a href="hours-and-clinic-info"><span>Hours and <br />Clinic Info</span></a></li>
-              <li class="questions"><a href="questions-and-answers"><span>Questions and <br />Answers</span></a></li>
+              <li class="contact"><a href="contact"><span>Hours, Contact <br />&amp; Directions</span></a></li>
               <li class="about"><a href="learn-more-about-us"><span>Learn More <br />About Us</span></a></li>
-              <li class="contact"><a href><span>Contact and <br />Directions</span></a></li>
+              <li class="questions"><a href="how-you-can-help"><span>How You <br />Can Help</span></a></li>
+              <li class="clinics"><a href="clinics-special-projects"><span>Medical Clinics &amp; <br />Special Projects</span></a></li>
             </ul>
           </nav>
         </div><!-- pinnedSide -->
@@ -53,22 +54,23 @@
         
         <nav id="bottomNav" class="imgNav squares">
           <ul>
-            <li class="hours"><a href="#"><span>Hours and <br />Clinic Info</span></a></li>
-            <li class="questions"><a href="#"><span>Questions and <br />Answers</span></a></li>
-            <li class="about"><a href="#"><span>Learn More <br />About Us</span></a></li>
-            <li class="contact"><a href="#"><span>Contact and <br />Directions</span></a></li>
+            <li class="hours"><a href="hours-and-clinic-info"><span>Hours and <br />Clinic Info</span></a></li>
+            <li class="questions"><a href="questions-and-answers"><span>Questions and <br />Answers</span></a></li>
+            <li class="about"><a href="learn-more-about-us"><span>Learn More <br />About Us</span></a></li>
+            <li class="contact"><a href><span>Contact and <br />Directions</span></a></li>
           </ul>
         </nav>
         
         <div id="bottomBanner">
           <div class="mWrap">
+            {{ get_content from="main-bottom-content" }}
             <div class="imgWrap">
-              <a href="#"><img src="{{ theme:img src="volunteer.jpg" }}" alt="volunteer" /></a>
+              <a href="{{ link }}"><img src="{{ small_image }}" /></a>
             </div>
             <div class="cWrap">
-              <h2>Volunteer<span class="mHide"> and Make a Difference</span></h2>
-              <p><span class="mHide">Lorem ipsum dolor...</span> <a href="#">learn more</a></p>
+              {{ content }}
             </div>
+            {{ /get_content }}
           </div><!-- mWrap -->
         </div><!-- bottomBanner -->
         <footer>

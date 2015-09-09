@@ -1,0 +1,28 @@
+title: Bottom Partial
+
+fields:
+  slug:
+    hide: true
+
+  small_image:
+    display: Small Image (100x100)
+    required: true
+    type: file
+    destination: assets/img/bottom/
+    allowed: ['jpg', 'jpeg', 'png']
+    resize: 
+      width: 100
+      height: 100
+      
+  link:
+    display: Link
+    required: true
+    default: how-you-can-help/
+    type: text
+
+  content:
+    display: Content
+    required: true
+    default:
+    type: markitup
+

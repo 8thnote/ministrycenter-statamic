@@ -21,13 +21,13 @@ _language: en
 _site_root: /
 
 # Name of your site
-_site_name: Another Awesome Statamic Site
+_site_name: The Ministry Center
 
 # Change the folder name for your content directory
 _content_root: _content
 
 # Used for permalinks
-_site_url: http://statamic.com
+_site_url: 
 
 # Folder name of your desired theme
 _theme: mc
@@ -42,7 +42,7 @@ _date_format: 'F jS, Y'
 _time_format: 'g:ia'
 
 # Timezone
-_timezone: America/New_York
+_timezone: America/Chicago
 
 # List of desired taxonomy triggers
 _taxonomy:
@@ -70,7 +70,7 @@ _content_type: markdown
 _enable_smartypants: true
 
 # set to 'true' to enable theme caching busting based on last modified timestamps
-_theme_cache_bust: false
+_theme_cache_bust: true
 
 # Specify where to save transformed images
 _transform_destination: assets/img/resized
